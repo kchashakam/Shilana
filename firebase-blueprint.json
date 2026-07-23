@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "users": {
+      "title": "User",
+      "description": "User account info",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "createdAt": { "type": "string" }
+      }
+    },
+    "prescriptions": {
+      "title": "Prescription",
+      "description": "User medical prescriptions",
+      "type": "object",
+      "properties": {
+        "doctorName": { "type": "string" },
+        "specialty": { "type": "string" },
+        "area": { "type": "string" },
+        "patientName": { "type": "string" },
+        "notes": { "type": "string" },
+        "image": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "isFavorite": { "type": "boolean" },
+        "medicines": { "type": "array" },
+        "aiAnalysis": { "type": "object" }
+      },
+      "required": ["doctorName", "notes", "createdAt"]
+    }
+  }
+}

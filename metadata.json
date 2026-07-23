@@ -1,0 +1,10 @@
+{
+  "name": "Remix: ئەرشیف و شیکەرەوەی ڕاچێتە بە AI",
+  "description": "سیستمی زیرەکی ئەرشیفکردن و شیکردنەوەی ڕاچێتەی پزیشکی بە ژیری دەستکردی Gemini",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
